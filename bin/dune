@@ -1,0 +1,4 @@
+(executable
+ (public_name newrelic_reporter)
+ (name main)
+ (libraries newrelic_reporter opentelemetry opentelemetry-client-ocurl))
